@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sunilsingh_draganddrop_recyclerview.MainActivity">
+    <item
+        android:id="@+id/action_drag"
+        android:orderInCategory="100"
+        android:title="CanDrag"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_not_drag"
+        android:orderInCategory="101"
+        android:title="NotDrag"
+        app:showAsAction="never"
+        />
+</menu>
